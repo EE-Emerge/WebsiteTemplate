@@ -15,11 +15,11 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     <a href="{{ site.github.url }}" class="btn">Home</a>
-      <a href="{{ site.github.baseurl }}/About" class="btn">About</a>
-    <a href="{{ site.github.baseurl }}/Hardware" class="btn">Hardware</a>
-    <a href="{{ site.github.baseurl }}/Software" class="btn">Software</a>
-    <a href="{{ site.github.baseurl }}/Mechanical" class="btn">Mechanical</a>
-    <a href="{{ site.github.baseurl }}/Acknowledgements" class="btn">Acknowledgements</a>
+    <a href="{{ site.baseurl }}/About" class="btn">About</a>
+    <a href="{{ site.baseurl }}/Hardware" class="btn">Hardware</a>
+    <a href="{{ site.baseurl }}/Software" class="btn">Software</a>
+    <a href="{{ site.baseurl }}/Mechanical" class="btn">Mechanical</a>
+    <a href="{{ site.baseurl }}/Acknowledgements" class="btn">Acknowledgements</a>
     {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn" target="_blank">View on GitHub</a>
       {% endif %}
